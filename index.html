@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>504 Sites | Affordable. Easy. Websites.</title>
+    <meta name="description" content="Professional websites starting at $89/mo. Data-driven web development and marketing campaigns that convert.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Scripts -->
+    <script type="importmap">
+        {
+            "imports": {
+                "lucide": "https://esm.sh/lucide@0.263.1"
+            }
+        }
+    </script>
+    <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="504 Sites Logo">
+            </a>
+            
+            <div class="nav-links desktop-only">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact" class="btn btn-sm btn-primary">Get Started</a>
+            </div>
+
+            <button class="mobile-menu-btn mobile-only" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-content">
+                <a href="#services" class="mobile-link">Services</a>
+                <a href="#about" class="mobile-link">About</a>
+                <a href="#testimonials" class="mobile-link">Testimonials</a>
+                <a href="#contact" class="btn btn-primary mobile-link">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-overlay">
+            <img src="hero_bg.png" alt="Background" class="hero-img">
+        </div>
+        <div class="container hero-content">
+            <span class="pill-badge fade-in">Affordable • Easy • Websites</span>
+            <h1 class="fade-in delay-1">Premium Websites.<br>Accessible Prices.</h1>
+            <p class="hero-subhead fade-in delay-2">Get a data-driven, professionally designed website starting at just <strong>$89/mo</strong>. No hidden fees. No headaches.</p>
+            <div class="hero-actions fade-in delay-3">
+                <a href="#contact" class="btn btn-primary icon-btn">
+                    Start Your Project <i data-lucide="arrow-right"></i>
+                </a>
+                <a href="#services" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Value Proposition -->
+    <section class="section section-value" id="about">
+        <div class="container grid-2">
+            <div class="value-image-wrapper reveal-left">
+                <img src="about_image.png" alt="Modern Web Development" class="rounded-img shadow-lg">
+                <div class="stat-card floating-card">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Mobile Optimized</span>
+                </div>
+            </div>
+            <div class="value-content reveal-right">
+                <h2 class="section-title">Limitless Possibilities</h2>
+                <h3 class="section-subtitle text-primary">Data Driven Development & Marketing</h3>
+                <p>We don't just build websites; we build engines for your business growth. From SEO-optimized structures to high-conversion landing pages, every pixel serves a purpose.</p>
+                
+                <ul class="feature-list">
+                    <li><i data-lucide="check-circle" class="text-accent"></i> Custom Designs (No Cookie-Cutter Templates)</li>
+                    <li><i data-lucide="check-circle" class="text-accent"></i> Integrated SEO Best Practices</li>
+                    <li><i data-lucide="check-circle" class="text-accent"></i> Lightning Fast Load Times</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="section bg-light" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="eyebrow">What We Do</span>
+                <h2 class="section-title">Full-Service Digital Solutions</h2>
+            </div>
+
+            <div class="grid-3 services-grid">
+                <!-- Service 1 -->
+                <div class="card service-card reveal-up">
+                    <div class="icon-box bg-indigo-100 text-indigo-600">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Responsive, fast, and accessible websites built on modern frameworks that scale with your business.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="card service-card reveal-up delay-1">
+                    <div class="icon-box bg-teal-100 text-teal-600">
+                        <i data-lucide="search"></i>
+                    </div>
+                    <h3>SEO</h3>
+                    <p>Rise through the ranks. We optimize your content and structure to help customers find you first.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="card service-card reveal-up delay-2">
+                    <div class="icon-box bg-purple-100 text-purple-600">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3>PPC & Ads</h3>
+                    <p>Targeted campaigns that maximize your ROI. We manage your ad spend so you stop wasting money.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="card service-card reveal-up">
+                    <div class="icon-box bg-pink-100 text-pink-600">
+                        <i data-lucide="mail"></i>
+                    </div>
+                    <h3>Email Marketing</h3>
+                    <p>Nurture leads and retain customers with automated, personalized email sequences.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="card service-card reveal-up delay-1">
+                    <div class="icon-box bg-blue-100 text-blue-600">
+                        <i data-lucide="thumbs-up"></i>
+                    </div>
+                    <h3>Social Media</h3>
+                    <p>Build a community around your brand with engaging content strategies across all platforms.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="card service-card reveal-up delay-2">
+                    <div class="icon-box bg-orange-100 text-orange-600">
+                        <i data-lucide="file-plus"></i>
+                    </div>
+                    <h3>Content Creation</h3>
+                    <p>Compelling copy, graphics, and video that tell your story and convert visitors into buyers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="eyebrow">Happy Clients</span>
+                <h2 class="section-title">Don't Just Take Our Word For It</h2>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="card testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"504 Sites transformed our online presence. The $89/mo plan was exactly what we needed to get started without breaking the bank."</p>
+                        <div class="author">
+                            <div class="avatar-placeholder">LS</div>
+                            <div>
+                                <strong>Lisa Smith</strong>
+                                <span>Co-Founder, Acme Corp</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"Professional, fast, and incredibly easy to work with. The team handled everything from design to SEO."</p>
+                        <div class="author">
+                            <div class="avatar-placeholder">MJ</div>
+                            <div>
+                                <strong>Mike Jones</strong>
+                                <span>Director, TechFlow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-cta" id="contact">
+        <div class="container text-center">
+            <h2 class="cta-title reveal-up">Ready to Grow?</h2>
+            <p class="cta-text reveal-up delay-1">Schedule your free consultation today and let's discuss how we can take your business to the next level.</p>
+            <div class="cta-buttons reveal-up delay-2">
+                <button class="btn btn-white icon-btn">
+                    Schedule Consult <i data-lucide="calendar"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="logo.png" alt="504 Sites" class="footer-logo">
+                <p>&copy; 2025 504sites.com. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="link-column">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <div class="link-column">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4c6229722a6346bc8eb5cb0e5eae5d41","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
